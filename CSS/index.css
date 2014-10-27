@@ -92,3 +92,16 @@ h2
 	font-family: 'Raleway', sans-serif;
 	color:#575757;
 }
+
+#social-buttons
+{
+	position: relative;
+	top:70%;
+	width:600px;
+	background-color: black;
+}
+
+#special-buttons
+{
+	border-radius: 0px;
+}
