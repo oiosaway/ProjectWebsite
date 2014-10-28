@@ -17,12 +17,12 @@ html, body
 	background-color: #1F1F1F;
 	border-radius: 0px;
 	width:100% ;
-	height:7%;
+	height:8%;
 }
 
 .navigation .container 
 {
-	text-align: cente;
+	text-align: center;
 	height: 100%;
 	width:100%;
 
@@ -75,10 +75,11 @@ span
     background-size: cover;
 }
 
-#Main .container
+#Main > .container
 {
 	text-align: center;
 	padding-top: 10%;
+	width: 40%;
 }
 
 h1
@@ -96,12 +97,30 @@ h2
 #social-buttons
 {
 	position: relative;
-	top:70%;
-	width:600px;
-	background-color: black;
+	top:100px;
+	width:100%;
+	margin: auto;
 }
 
 #special-buttons
 {
 	border-radius: 0px;
 }
+
+button:nth-child(2)
+{
+	position: relative;
+	right:4px;
+}
+button:nth-child(3)
+{
+	position: relative;
+	right:8px;
+}
+
+button:nth-child(4)
+{
+	position: relative;
+	right:11px;
+}
+
