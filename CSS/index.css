@@ -19,6 +19,8 @@ html, body
 	border-radius: 0px;
 	width:100% ;
 	height:8%;
+	position: fixed;
+	opacity: 0.6;
 }
 
 .navigation .container 
@@ -48,6 +50,7 @@ html, body
 	text-decoration: none;
 	color:gray;
 	font-size: 15px;
+	opacity: 1.0;
 }
 
 .navigation .container ul li a:hover
@@ -70,6 +73,7 @@ span
 	width: 100%;
 	height: 92%;
 
+
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -79,7 +83,7 @@ span
 #Main > .container
 {
 	text-align: center; 
-	padding-top: 4%;
+	padding-top: 6%;
 	height: 100%;
 	width: 100%;}
 
@@ -87,6 +91,7 @@ h1
 {
 	font-family: 'Raleway', sans-serif;
 	color:#303030;
+	font-size: 60px;
 }
 
 h2
@@ -104,15 +109,24 @@ h2
 	margin: auto;
 }
 
-#special-buttons
+button
 {
-	width: 15em;  height: 4em;
+	width: 15em;  
+	height: 4em;
+}
+
+#special-buttons-color
+{
+	background:dimgray;
 }
 
 button:first-child
 {
+	position: relative;
 	border-top-left-radius: 7px;
 	border-bottom-left-radius: 7px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
 }
 
 button:nth-child(2)
