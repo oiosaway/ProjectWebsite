@@ -126,7 +126,7 @@ button
 
 #special-buttons-color
 {
-	background:dimgray;
+	background:rgb(37,37,37);
 	color:black;
 }
 
@@ -174,14 +174,15 @@ button:nth-child(4)
 }
 
 #aboutmediv
-{
+{ 
 	position: relative;
 	top:60px;
-	/*display: none;*/
+	margin-bottom:50px; 
+	display: none;
 }
 #aboutme
 {
-	width:500px;
+	width:800px;
 	height: 280px;
 	margin: auto;
 	margin-top:30px;
@@ -189,15 +190,17 @@ button:nth-child(4)
 
 #aboutmepic
 {
-	background: rgba(160,160,160,0.30);
+	background: rgba(31,31,31,0.80);
 	height:100%;
 }
 
 #aboutmeinfo
 {
-	background: rgba(160,160,160,0.40);
+	background: rgba(0,0,0,0.85);
 	height: 100%;
-	color:black;
+	color:dimgray;
+	font-family: 'Raleway', sans-serif;
+	padding-top: 10px;
 	
 }
 
@@ -210,12 +213,12 @@ button:nth-child(4)
 #circdiv
 {
 	position: relative;
-	top: 80px;
+	top: 40px;
     margin:auto;
 	background-image: url(../Images/myface.jpg);
 	border-radius: 100%;
-	height: 130px;
-	width:130px;
+	height: 170px;
+	width:170px;
 	-webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
