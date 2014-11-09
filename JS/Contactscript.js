@@ -1,13 +1,6 @@
 $(document).ready(function()
 	{
 
-    $("h1").show(1000);
-
-      $("#class").show(1700);
-
-      $("#school").show(2200);
-    
-
 		$(".btn").mouseenter(
     function()
     {

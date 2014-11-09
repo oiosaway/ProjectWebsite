@@ -12,17 +12,13 @@
 
 		<!-- CSS -->
 		<link href='http://fonts.googleapis.com/css?family=Raleway:500' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" >
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
 		<link rel="stylesheet" href="../CSS/social-buttons.css">
 		<link href="../font-awesome/css/font-awesome.min.css" rel="stylesheet" >
 		<link rel="stylesheet" href="../CSS/index.css">	
 
 		<!-- JS -->
-		<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-		<script type="text/javascript" src="../JS/indexscript.js"></script>
-		<!--<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>-->
-
+		
 	</head>
 
 	<body>
@@ -31,10 +27,11 @@
 			<div class="navigation">
 	     	 	<div class="container">
 		        	<ul >
-		          		<li><a href="#" ><span >Home</span></a></li>
-		         		<li><a href="#">Resume</a></li>
-		         		<li><a href="#">Interests</a></li>
+		          		<li><a href="index.html" ><span id="activepage" >Home</a></span></li>
+		         		<li><a href="Resume.html">Resume</a></li>
+		         		<li><a href="Interests.html">Interests</a></li>
 		          		<li><a href="#">Music</a></li>
+		          		<li><a href="Contact.html">Contact</a></li>
 		          		
 		       		 </ul>
 	      		</div>
@@ -47,11 +44,11 @@
 
 			 <div class="container" id="Main">
 
-				 		<h1>Ian Osawaye</h1>
+				 		<h1 id="name">Ian Osawaye</h1>
 				 		<br>
-				 		<h2>3A Computer Engineering</h2>
+				 		<h2 id="class">3A Computer Engineering</h2>
 				 		<br>
-				 		<h2>University of Waterloo</h2>
+				 		<h2 id="school">University of Waterloo</h2>
 				 		<br>
 				 		<a id="aboutmebutton" href="#" > <strong>ABOUT ME <strong></a>
 
@@ -84,6 +81,8 @@
 
 		</div>
 		
+		<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+		<script type="text/javascript" src="../JS/indexscript.js"></script>
 	</body>
 
 </html>
