@@ -1,7 +1,7 @@
 $(document).ready(function()
 	{
 
-    $("h1").show(1000);
+    $("#name").show(1000);
 
       $("#class").show(1700);
 
