@@ -160,12 +160,18 @@ button.btn-github
 #aboutmebutton
 {
 	position: relative;
-	color:black;
 	border: 2px solid black;
 	text-decoration: none;
-	padding:0.5em;
+	padding:1em;
 	top:30px;
 	font-family: 'Raleway', sans-serif;
+	background-color: rgba(0,0,0,0.50);
+	color: gray;
+	border-radius: 30px;
+}
+#aboutmebutton:hover
+{
+	background-color: rgba(0,0,0,1.0);
 }
 
 #aboutmediv
@@ -199,11 +205,6 @@ button.btn-github
 	
 }
 
-#aboutmebutton:hover
-{
-	background-color: black;
-	color: gray;
-}
 
 #circdiv
 {
