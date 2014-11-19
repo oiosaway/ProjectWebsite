@@ -25,9 +25,8 @@
 
 
 span.glyphicon-inbox,span.glyphicon-phone {
-    font-size: 3.5em;
+    font-size: 1em;
     color:white;
-    margin-top: 5%;
 }
 
 span a,span a:hover
@@ -41,8 +40,13 @@ span a,span a:hover
 #contactform
 {
 	padding:25px;
-	padding-right: 60px;
 }
+
+#contactinfo
+{
+	padding-top: 60px;
+}
+
 label
 {
 	color:gray;
