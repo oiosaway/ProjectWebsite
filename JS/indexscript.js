@@ -5,7 +5,7 @@ $(document).ready(function()
 
       $("#class").show(1700);
 
-      $("#school").show(2200);
+      $("#school").show(2100);
     
 
 		$(".btn").mouseenter(
