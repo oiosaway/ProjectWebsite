@@ -50,7 +50,7 @@
 
 		   		 	<div class="col-md-8" id="contactform">
 		   		 	
-			   		 		<form role="form" method="post" action="/Contact.html" >
+			   		 		<form name= "contactForm"role="form" method="post" action="./JS/contact_me.js" >
 
 
 					   			<div class="form-group" >
@@ -60,15 +60,21 @@
 
 								<div class="form-group" >
 								<label for="email">Email (Required) </label>
-								<input class="form-control" placeholder="Email" type="text" name="email" /> 					
+								<input class="form-control" placeholder="Email" type="text" name="email"  /> 					
 								</div>
 								
 								<div class="form-group" >
+								<label for="phone">Phone-Number (Required) </label>
+								<input class="form-control" placeholder="Phone-Number" type="text" name="phone" /> 					
+								</div>
+
+								<div class="form-group" >
 									<label for="name">Message (Required) </label><br>
-									<textarea class="form-control" name="message" rows="10" placeholder="Message here." ></textarea>
+									<textarea class="form-control" name="message" rows="8" placeholder="Message here." ></textarea>
 								</div>
 
 									<input type="submit" value="Send!" /> 
+
 							</form>
 					</div>
 
@@ -96,6 +102,6 @@
 		<!-- JS -->
 		<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
 		<script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-		<script type="text/javascript" src="../JS/indexscript.js"></script> 
+		<script type="text/javascript" src="../JS/Contactscript.js"></script> 
 	</body>
 </html>

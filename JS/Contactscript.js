@@ -8,17 +8,11 @@ $(document).ready(function()
    			$(this).animate({bottom:"10px"},400);}
      );
        
-       $(".btn, .btn-facebook").mouseleave(
+       $(".btn").mouseleave(
     function()
     {
        $(this).attr("id","special-buttons-color");
         $(this).animate({bottom:"0px"},400);}
      );
-
-       $('#aboutmebutton').click(function(){
- 
-      $('#aboutmediv').slideToggle();
- 
-   });
 
 	});
