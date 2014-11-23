@@ -6,7 +6,7 @@
 		<title> Contact me</title>
 
 		<!-- CSS -->
-		<link href='http://fonts.googleapis.com/css?family=Raleway:500' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Raleway:500,800 ' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
 		<link rel="stylesheet" href="../CSS/social-buttons.css">
 		<link href="../font-awesome/css/font-awesome.min.css" rel="stylesheet" >
@@ -40,40 +40,42 @@
 
 		   		 	<div class="col-md-4" id="contactinfo">
 
+		   		 	<a id="header" class="noeffect">CONTACT ME!</a><br/><br/><br/>
+
 		   		 		 
-		   		 	<span class="glyphicon glyphicon-inbox"> <a>osasosawaye44@yahoo.com</a></span><br>
-		   		 	<span class="glyphicon glyphicon-inbox"> <a>osasosawaye44@gmail.com</a></span><br>
-		   		 	<span class="glyphicon glyphicon-inbox"> <a>oiosaway@uwaterloo.ca</a></span><br>
-		   		 	<span class="glyphicon glyphicon-phone"> <a>(289)6893463</a></span><br>
+		   		 	<span class="glyphicon glyphicon-inbox"></span> <a class="noeffect">osasosawaye44@yahoo.com</a><br/><br/>
+		   		 	<span class="glyphicon glyphicon-inbox"></span> <a class="noeffect">osasosawaye44@gmail.com</a><br/><br/>
+		   		 	<span class="glyphicon glyphicon-inbox"></span> <a class="noeffect">oiosaway@uwaterloo.ca</a><br/><br/>
+		   		 	<span class="glyphicon glyphicon-phone"> </span ><a class="noeffect">289-689-3463</a><br/><br/>
 
 		   		 	</div>
 
 		   		 	<div class="col-md-8" id="contactform">
 		   		 	
-			   		 		<form name= "contactForm" role="form" method="post" action="" >
+			   		 		<form id= "contactForm" name="contactForm" role="form" method="post" action="../PHP/contact_me.php" accept-charset="UTF-8" >
 
 
 					   			<div class="form-group" >
-								<label for="name">Name (Required) </label>
-								<input type="text" placeholder="Name" class="form-control" name="name" required/> 					
+								<label for="fullname">Name: <span style="color:red">*</span></label>
+								<input type="text" placeholder="Name" class="form-control" name="fullname" id="fullname" /> 					
 								</div>
 
 								<div class="form-group" >
-								<label for="email">Email (Required) </label>
-								<input class="form-control" placeholder="Email" type="text" name="email"  required/> 					
+								<label for="email">Email:<span style="color:red">*</span> </label>
+								<input class="form-control" placeholder="Email" type="text" name="email" id="email" /> 					
 								</div>
 								
 								<div class="form-group" >
-								<label for="phone">Phone-Number (Required) </label>
-								<input class="form-control" placeholder="Phone-Number" type="text" name="phone" required/> 					
+								<label for="phone">Phone-Number:<span style="color:red">*</span> </label>
+								<input class="form-control" placeholder="Phone-Number" type="text" name="phone" id="phone"/> 					
 								</div>
 
 								<div class="form-group" >
-									<label for="name">Message (Required) </label><br>
-									<textarea class="form-control" name="message" rows="8" placeholder="Message here." required ></textarea>
+									<label for="message">Message: <span style="color:red">*</span></label><br>
+									<textarea class="form-control" name="message" rows="8" placeholder="Message here." id="message" ></textarea>
 								</div>
 
-									<input type="submit" value="Send!" /> 
+									<input type="submit" value="Send Message!" /> 
 
 							</form>
 					</div>
@@ -99,9 +101,12 @@
 
 		</div>
 
-		<!-- JS -->
-		<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
-		<script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+		
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<!--include jQuery Validation Plugin-->
+		<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.12.0/jquery.validate.min.js"
+		type="text/javascript"></script>
+
 		<script type="text/javascript" src="../JS/Contactscript.js"></script> 
 	</body>
 </html>

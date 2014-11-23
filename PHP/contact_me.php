@@ -1,26 +1,56 @@
 <?php
-// Check for empty fields
-if(empty($_POST['name'])  		||
-   empty($_POST['email']) 		||
-   empty($_POST['phone']) 		||
-   empty($_POST['message'])	||
-   !filter_var($_POST['email'],FILTER_VALIDATE_EMAIL))
-   {
-	echo "No arguments Provided!";
-	return false;
-   }
-	
-$name = $_POST['name'];
-$email_address = $_POST['email'];
-$phone = $_POST['phone'];
-$message = $_POST['message'];
-	
-// Create the email and send the message
-$to = 'sadruddin.hashmani@gmail.com'; 
-$email_subject = "Website Contact Form:  $name";
-$email_body = "You have received a new message from your website contact form.\n\n"."Here are the details:\n\nName: $name\n\nEmail: $email_address\n\nPhone: $phone\n\nMessage:\n$message";
-$headers = "From: noreply@hashmani .com\n"; 
-$headers .= "Reply-To: $email_address";	
-mail($to,$email_subject,$email_body,$headers);
-return true;			
+$errors = '';
+$myemail = 'osasosawaye44@yahoo.com';//<-----Put Your email address here.
+if(empty($_POST['fullname'])  || 
+   empty($_POST['email']) || 
+   empty($_POST['phone'])  ||
+   empty($_POST['message']))
+{
+    $errors .= "\n Error: all fields are required";
+}
+ 
+$name = $_POST['fullname']; 
+$email_address = $_POST['email']; 
+$phone_number = $_POST['phone']; 
+$message = $_POST['message']; 
+ 
+if (!preg_match(
+"/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$/i", 
+$email_address))
+{
+    $errors .= "\n Error: Invalid email address";
+}
+
+//compose and send email
+if( empty($errors))
+ 
+{
+ 
+$to = $myemail;
+ 
+$email_subject = "Contact form submission: $name";
+ 
+$email_body = "You have received a new message. ".
+ 
+" Here are the details:\n Name: $name \n Phone nnumber: $phone_number \n".
+ 
+"Email: $email_address\n Message \n $message";
+ 
+$headers = "From: $myemail\n";
+ 
+$headers .= "Reply-To: $email_address";
+ 
+$mail = mail($to,$email_subject,$email_body,$headers);
+
+if($mail){
+  echo "Thank you for using our mail form";
+}else{
+  echo "Mail sending failed."; 
+}
+
+header('Location: ../HTML/index.html');
+
+ 
+}
+
 ?>
