@@ -24,7 +24,7 @@ $(document).ready(function()
 
        $('#aboutmebutton').click(function(){
  
-      $('#aboutmediv').slideToggle();
+      $('#aboutmediv').slideToggle(2000);
  
    });
 

@@ -14,7 +14,7 @@
 }
 
 #background {
-	background: url(../Images/sample2.jpg) no-repeat ;
+	background: url(../Images/sample5.jpg) no-repeat ;
 	background-attachment: fixed;
 	background-position: center center;
 	width: 100%;
@@ -70,7 +70,7 @@ label
 
 #Contactrow
 {	
-	background-color: rgba(122,122,122,0.9);
+	background-color: rgba(122,122,122,0.8);
 }
 
 input[name="fullname"] ,input[name="phone"],input[name="email"],textarea[name="message"]

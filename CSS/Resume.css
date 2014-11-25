@@ -1,8 +1,12 @@
-#backgroun {
-	background: rgba(31,31,31,0.85) no-repeat ;
+#background {
+	background: url(../Images/sample5.jpg) no-repeat ;
+	background-attachment: fixed;
+	background-position: center center;
 	width: 100%;
 	height: 100%;
 	position: fixed;
+
+    background-size: cover;
 }
 
 #ResumeContainer
@@ -16,14 +20,4 @@
 	top:8%;
 	border-left: 1px solid #1F1F1F ;
 	border-right: 1px solid #1F1F1F ;
-}
-
-.navigation 
-{
-	background-color: rgba(31,31,31,1);
-	border-radius: 0px;
-	width:100% ;
-	height:8%;
-	z-index: 10;
-	position: fixed;
 }
