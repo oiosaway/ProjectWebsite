@@ -63,20 +63,20 @@ span.glyphicon
 
 label
 {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-weight: 500;
 	color:black;
 }
 
 #Contactrow
 {	
-	background-color: rgba(122,122,122,0.8);
+	background-color: rgba(105,105,105,0.8);
 }
 
 input[name="fullname"] ,input[name="phone"],input[name="email"],textarea[name="message"]
 {
 	border: none;
-	background-color: rgb(82,82,82);
+	background:rgba(37,37,37,0.8);
 	color:black;
 }
 
@@ -87,8 +87,12 @@ input[type="submit"]
 	padding:8px;
 	color:rgb(82,82,82);
 	border-radius: 10px;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-weight: bold;
+}
+input[type="submit"]:hover
+{
+	color:white;
 }
 
 input:focus {
@@ -98,7 +102,7 @@ a.noeffect,a.noeffect:hover
 {
 	text-decoration: none;
 	color:black;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	float: left;
 	margin-left:10px; 
 

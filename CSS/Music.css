@@ -1,0 +1,101 @@
+/* ******************************************
+CSS Structure
+****************************************** */
+
+/* -  Global CSS */
+/* -  Navigation */
+/* -  Home CSS */
+/* -  Latest CSS */
+
+/* ******************************************
+GLOBAL CSS
+****************************************** */
+@charset "utf-8";
+
+html, body {
+	width:100%;
+	height:100%;
+}
+
+body {
+	
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+}
+
+
+h2.heading{
+	font-family: 'Roboto', sans-serif;
+	font-size: 60px;
+	font-weight: 700;
+	text-align: center;
+	color:black;
+	padding:40px 0 60px 0;
+}
+
+
+#background {
+	background: url(../Images/sample5.jpg) no-repeat ;
+	background-attachment: fixed;
+	background-position: center center;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+
+    background-size: cover;
+}
+
+section {
+	padding-top: 50px;
+}
+
+.videos a
+{
+	text-decoration: none;
+	color:black;
+}
+
+.videos a:hover
+{
+	text-decoration: none;
+	color:white;
+}
+
+#about {
+	height: 820px;
+	padding-top: 50px;
+}
+
+#about, #skills, #portfolio, #contact {
+	position:relative;
+	width:100%;
+	overflow:hidden;
+	font-size: 20px;
+	font-weight: 100;
+	line-height: 35px;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+.embed-container {    
+    position: relative;    
+    padding-bottom: 10px;
+    height: 90%; 
+    overflow: hidden;
+}
+
+.videos
+{
+	margin-bottom: 40px;
+}
+
+ 
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {    
+    position: relative;    
+    top: 0;    
+    left: 0;    
+    width: 50%;    
+    height: 80%;
+}

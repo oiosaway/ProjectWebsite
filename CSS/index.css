@@ -42,7 +42,7 @@ html, body
 {
 	display:inline;
 	margin:10px;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Roboto', sans-serif;
 }
 
 .navigation .container ul li a
@@ -83,7 +83,7 @@ html, body
 
 #name
 {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	color:rgba(0,0,0,1);
 	font-size: 60px;
 	font-weight: 700;
@@ -96,7 +96,7 @@ img
 
 #class,#school
 {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	color:black;
 	display: none;
 }
@@ -166,7 +166,7 @@ button.btn-github
 	padding-right:5em;
 	padding-left:5em;
 	top:30px;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	background-color: rgba(37,37,37,0.8);
 	color: black;
 	border-radius: 10px;
@@ -211,13 +211,13 @@ button.btn-github
 	background: rgba(0,0,0,0.85);
 	height: 100%;
 	color:dimgray;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	padding-top: 10px;
 	
 }
 
 
-span.glyphicon-book,span.glyphicon-briefcase,span.glyphicon-user
+span.glyphicon-book,span.glyphicon-briefcase,span.glyphicon-user,span.glyphicon-music
 {
 	color:white;
 	position:relative;
