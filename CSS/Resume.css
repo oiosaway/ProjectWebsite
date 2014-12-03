@@ -20,4 +20,58 @@
 	top:8%;
 	border-left: 1px solid #1F1F1F ;
 	border-right: 1px solid #1F1F1F ;
+	text-align: center;
+	padding-top: 20px;
+}
+
+/*For Chrome and Safari*/
+progress::-webkit-progress-bar {  
+    background-color: rgba(123,123,123,0.9);  
+    border: 0;  
+    height: 18px;  
+    border-radius: 9px; 
+}  
+
+progress::-webkit-progress-value {  
+    background-color: rgba(37,37,37,0.8); 
+    border: 0;  
+    height: 18px;  
+    border-radius: 9px; 
+     
+}  
+/*End*/
+
+/*For Firefox*/
+progress
+{ 
+	position: relative;
+    background-color: rgba(123,123,123,0.9);  
+    border: 0;  
+    height: 18px;  
+    border-radius: 9px;  
+    width: 300px;
+    top:2px;
+    left:10%;
+}
+
+progress::-moz-progress-bar {  
+    background-color: rgba(37,37,37,0.8);
+    border: 0;  
+    height: 18px;  
+    border-radius: 9px;   
+}  
+/*End*/
+
+h4
+{
+	display: inline;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	margin-right: 3%;
+}
+
+.row
+{
+	width:50%;
+	margin: auto;
 }
