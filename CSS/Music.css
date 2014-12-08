@@ -23,17 +23,6 @@ h2.heading{
 }
 
 
-#background {
-	background: url(../Images/sample5.jpg) no-repeat ;
-	background-attachment: fixed;
-	background-position: center center;
-	width: 100%;
-	height: 100%;
-	position: fixed;
-
-    background-size: cover;
-}
-
 section {
 	padding-top: 50px;
 }

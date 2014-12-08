@@ -1,25 +1,13 @@
-#background {
-	background: url(../Images/sample5.jpg) no-repeat ;
-	background-attachment: fixed;
-	background-position: center center;
-	width: 100%;
-	height: 100%;
-	position: fixed;
 
-    background-size: cover;
-}
 
 #ResumeContainer
 {
 	position: relative;
-	background: rgb(255,255,255) no-repeat ;
+	background-color: white;
 	width: 80%;
-	height: 100%;
-	z-index: 1;
+	z-index: 3;
 	margin: auto;
 	top:8%;
-	border-left: 1px solid #1F1F1F ;
-	border-right: 1px solid #1F1F1F ;
 	padding-top: 20px;
 	padding-left: 20px;
 }
@@ -74,12 +62,11 @@ div h4
 {
 	font-weight: 700;
 	color:rgb(47,79,79);
-;
 }
 
 .subheaders
 {
-	color:rgb(0,0,0,0);
+	color: black;
 	font-weight: 400;
 }
 
@@ -94,7 +81,29 @@ div h4
 
 }
 
-u
+.col-md-6, .col-md-9
 {
-	
+	border-left: 1px solid gray;
+}
+
+.date
+{
+	color:gray;
+	font-family: 'Lato', sans-serif;
+}
+
+img
+{
+	width: 100%;
+	height: 8%;
+}
+
+li
+{
+	font-family: 'Lato', sans-serif;
+}
+
+.workimage
+{
+	width: 20%;
 }
