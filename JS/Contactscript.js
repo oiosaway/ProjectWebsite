@@ -24,6 +24,7 @@ $(document).ready(function()
             ,
             message:
             {
+              required:true,
               maxlength:2000
             },
 

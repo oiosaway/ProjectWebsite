@@ -17,9 +17,6 @@
 		<link rel="stylesheet" href="../CSS/index.css">	
 		<link rel="stylesheet" href="../CSS/Resume.css">	
 
-		<!-- JS 
-		<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
-		<script type="text/javascript" src="../JS/indexscript.js"></script> -->
 	</head>
 
 <body>
@@ -28,7 +25,7 @@
 			<div class="navigation">
 	     	 	<div class="container">
 	     	 	<span class="glyphicon glyphicon-briefcase" ></span>
-		        	<ul >
+		        	<ul class="navlist">
 		          		<li><a href="index.html" >Home</a></li>
 		         		<li><a href="Resume.html"><span id="activepage" >Resume</span></a></li>
 		          		<li><a href="Music.html">Music</a></li>
@@ -54,7 +51,17 @@
 	   		 			<h1 class="headers">Applications <span style="color: rgb(123,123,123);"> &</span>  Skills:</h1>	   		 	
 			   		 	<br/>
 			   		 	<br/>
-			   		 	<h2 class="subheaders">Technical:</h2>	
+			   		 	<h2 class="subheaders">Technical:</h2>
+
+			   		 	<div class="row">
+				   		 	<div class="col-md-4">
+				   		 		<h4>Microsoft Office:</h4>
+				   		 	</div>
+				   		 	<div class="col-md-8">
+				   		 		<progress value="95" max="100"></progress>
+				   		 	</div>
+				   		 </div>
+
 			   		 	<div class="row" >
 				   		 	<div class="col-md-4">
 				   		 		 <h4>Java:</h4>
@@ -75,10 +82,10 @@
 
 				   		  <div class="row">
 				   		 	<div class="col-md-4">
-				   		 		 <h4>Android Studio:</h4>
+				   		 		 <h4>Android Studio/Eclipse:</h4>
 				   		 	</div>
 				   		 	<div class="col-md-8">
-				   		 		<progress value="75" max="100"></progress>
+				   		 		<progress value="80" max="100"></progress>
 				   		 	</div>
 				   		 </div>
 
@@ -149,6 +156,8 @@
 			   			<h1 class="headers">Roles:</h1><br/><br/>
 			   			<h3 >Android Developer</h3><br/>
 			   			<h3>Front-End Developer</h3><br/>
+			   			<h3>Java Developer</h3><br/>
+			   			<h3>Web Developer</h3><br/>
 			   		</div>
 
 				</div>
@@ -171,16 +180,16 @@
 
 					<div class="col-md-6">
 						<ul>
-							<li>Work was performed at various locations in Ontario such as Barrie, Markham, Toronto, Oakville, Mississauga, Brampton, Brantford, Bradford, Milton and Kitchener-Waterloo</li>
-  							<li>Installed disconnect switches, breakers and transformers at commercial sites</li>
-  							<li>Worked in a fast paced environment as a result of dynamic requests and site structures</li>
- 							 <li>Implemented procedures to solve lighting problems at plazas around the GTA</li>
- 							 <li>Made use of heavy machinery such as trenchers, bucket trucks and jackhammers</li>
- 							 <li>Constructed new lighting systems working with photocells and By-pass switches</li>
+							<li>Utilized bandwidth throttling to simulate poor network connections in games</li>
+  							<li>Executed comprehensive and build verification tests to ensure game sanity</li>
+  							<li>Iterated though release builds to test for bugs and anomalies</li>
+ 							 <li>Feature testing on new app builds to ensure new features are ready for market release</li>
+ 							 <li>Regressive tests carried out on new game builds</li>
+ 							 <li>Utilized bandwidth throttling to simulate poor network connections in games</li>
 						</ul>
 					</div>
 
-					<div class="col-md-3 workimage">
+					<div class="col-md-3">
 						<img id="zynga" src="../Images/zynga.png"/>
 					</div>
 
@@ -208,7 +217,7 @@
 						</ul>
 					</div>
 
-					<div class="col-md-3 workimage">
+					<div class="col-md-3">
 						<img src="../Images/pwc.png"/>
 					</div>
 
@@ -226,7 +235,7 @@
 
 					<div class="col-md-9">
 						<ul>
-							<li>Work was performed at various locations in Ontario such as Barrie, Markham, Toronto, Oakville, Mississauga, Brampton, Brantford, Bradford, Milton and Kitchener-Waterloo</li>
+							<li>Work was performed at various locations in Ontario such as Barrie, Markham, Toronto,</br> Oakville, Mississauga, Brampton, Brantford, Bradford, Milton and Kitchener-Waterloo</li>
   							<li>Installed disconnect switches, breakers and transformers at commercial sites</li>
   							<li>Worked in a fast paced environment as a result of dynamic requests and site structures</li>
  							 <li>Implemented procedures to solve lighting problems at plazas around the GTA</li>
@@ -245,17 +254,184 @@
 
 
 
-
+				<!-- Projects -->
 				<h1 class="headers">Projects:</h1>
+				<br/><br/>
 
-				<br/>
-				<br/>
+				<!-- Tilde -->
+				<div class="row">
+					<div class="col-md-3">
+						<h3 class="workheaders">Tilde-IO</h3>
+						<h5 class="date">Sept 2014 - Present</h5>
+						<h5>Native Android application</h5>
+					</div>
+
+					<div class="col-md-6">
+						<ul>
+							<li>Created interface between Android code and web javascript through webview</li>
+  							<li>Engaging sensor triggered interface</li>
+  							<li>Built a simple UI layout</li>
+  							<li>Employed the use of custom libraries made by other developers</li>
+ 							 <li>Use of a web based sensor API to read device sensor values</li>
+						</ul>
+					</div>
+
+					<div class="col-md-3">
+						<img id="tilde" src="../Images/tilde.png"/>
+					</div>
+
+				</div>
+				</br>
+
+				<!-- End Tilde -->
+
+				<div class="row">
+					<div class="col-md-3">
+						<h3 class="workheaders">Personal Website</h3>
+						<h5 class="date">Sept 2014 - Dec 2014</h5>
+					</div>
+
+					<div class="col-md-9">
+						<ul>
+							<li>Used JQuery and Javascript to create some dynamic features</li>
+							<li>Used HTML, CSS and Javascript for visual arrangements and layouts</li>
+							<li>Contact form powered with PHP</li>
+							<li>Font types and styles powered with Google fonts</li>
+  							<li>Employed the use of CSS bootstrap for containers</li>
+  							<li>Divided into various pages that showcases skills</li>
+						</ul>
+					</div>
 
 
+				</div>
+				</br>
+
+
+				<div class="row">
+					<div class="col-md-3">
+						<h3 class="workheaders">Mini Map Navigation System</h3>
+						<h5 class="date">February 2013</h5>
+						<h5>Designed in ECE 155 course</h5>
+					</div>
+
+					<div class="col-md-9">
+						<ul>
+							<li>Application of in-built android sensors for user navigation</li>
+							<li>Provided simple interface for user to navigate custom map</li>
+				          	<li>Implemented an algorithm for routing user's path to destination</li>
+				          	<li>Made use of android mapview to manipulate imported custom maps</li>
+				          	<li>Provided ability for user to set starting point and destination</li>
+						</ul>
+					</div>
+
+				</div>
+				</br>
+
+
+				
+				<!-- Volunteering -->
 				<h1 class="headers">Volunteering:</h1>
+				<br/><br/>
+
+				<div class="row">
+					<div class="col-md-3 border-right">
+						<h3 class="workheaders">University of Waterloo food Bank</h3>
+						<h5 class="date">May 2014 - August 2014</h5>
+						<h5>Weekly volunteer</h5>
+					</div>
+
+					<div class="col-md-9 noborder" >
+						<ul>
+							<li> Participating in local food drives to raise food for University of Waterloo and Waterloo regional food bank</li>
+          					<li> Assisting with collection and sorting of foods</li> 
+             				 <li>Assisting with the appropriate distribution of food to Uwaterloo students</li>
+						</ul>
+					</div>
+
+				</div>
 				<br/>
 
+
+				<div class="row">
+					<div class="col-md-3 border-right">
+						<h3 class="workheaders">University of Waterloo African students Association</h3>
+						<h5 class="date">September 2013 - Dec 2014</h5>
+						<h5>Member</h5>
+					</div>
+
+					<div class="col-md-9 noborder">
+						<ul>
+							<li> Event coordination of the annual TRACES african show at the university</li>
+          		<li> Celebration of the african culture and history through special events such as black history month</li> 
+             	 <li> Involved in the planning of events such as coffee houses, Meetings and potlucks</li>
+						</ul>
+					</div>
+
+				</div>
+				<br/>
+
+
+				<div class="row">
+					<div class="col-md-3 border-right">
+						<h3 class="workheaders">University of Waterloo Ron-Eydt Village Rez Council</h3>
+						<h5 class="date">September 2012 - April 2013</h5>
+						<h5>Floor Representative</h5>
+					</div>
+
+					<div class="col-md-9 noborder">
+						<ul>
+							<li>Publicized all events using posters and other audio - visual aids</li>
+				<li>Worked with executives to plan and implement residence activities</li>
+				<li>Communicated floor requests to executives and determined their feasibility</li>
+						</ul>
+					</div>
+
+				</div>
+				<br/>
+
+
+				<!-- Interests -->
 				<h1 class="headers">Interests:</h1>
+				<br/>
+				<br/>
+				<div class="row">
+					<div class="col-md-3 interests">
+						<img src="../Images/soccer.jpg" class="circle" /><br/><br/>		
+					</div>
+
+					<div class="col-md-3 interests">
+						<img src="../Images/sing.jpg" class="circle" /><br/><br/>		
+					</div>
+
+					<div class="col-md-3 interests">
+						<img src="../Images/programming.png" class="circle" /><br/><br/>		
+					</div>
+
+					<div class="col-md-3 interests">
+							<img src="../Images/gaming.png" class="circle" /><br/><br/>		
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-3 interests">	
+						<h4 >Soccer</h4>
+					</div>
+
+					<div class="col-md-3 interests">	
+						<h4 >Singing</h4>
+					</div>
+
+					<div class="col-md-3 interests">	
+						<h4 >Programming</h4>
+					</div>
+
+					<div class="col-md-3 interests">	
+						<h4 >Gaming</h4>
+					</div>
+				</div>
+
+
+
 				<br/>
 
 

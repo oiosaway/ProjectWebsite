@@ -16,7 +16,6 @@ html, body
 .navigation 
 {
 	background-color: rgba(0,0,0,0.9);
-	border-radius: 0px;
 	width:100% ;
 	height:8%;
 	position: fixed;
@@ -25,50 +24,53 @@ html, body
 
 .navigation .container 
 {
-	text-align: center;
+	padding: 0px;
+	margin: 0px;
 	height: 100%;
 	width:100%;
-
+	text-align: center;
+	position: relative;
 }
 
-.navigation .container ul
+
+.navlist
 {
 	position: relative;
 	list-style-type: none;
 	top:30%;
-
+	margin: 0px;
+	padding: 0px;
+	right:1.5%;
 }
-.navigation .container ul li
+
+.navlist li
 {
 	display:inline;
-	margin:10px;
 	font-family: 'Roboto', sans-serif;
 }
 
-.navigation .container ul li a
+.navlist li a
 {
 	text-decoration: none;
 	color:gray;
 	font-size: 20px;
-	margin-right:20px; 
-	margin-left:20px; 
-
+	margin-left:2.2%;
+	margin-right:2.2%;
 }
 
-.navigation .container ul li a:hover, #activepage
+.navlist li a:hover, #activepage
 {
 	text-decoration: none;
 	color:white;
 }
 
 #background {
-	background: url(../Images/sample5.jpg) no-repeat ;
+	background: url(../Images/sample3.jpg) no-repeat ;
 	background-attachment: fixed;
 	background-position: center center;
 	width: 100%;
 	height: 100%;
 	position: fixed;
-
     background-size: cover;
 }
 
@@ -77,8 +79,8 @@ html, body
 	position: relative;
 	z-index: 2;
 	text-align: center; 
-	padding-top: 10%;
-	height: 100%;
+	padding-top: 8%;
+	/*background-color:rgba(37,37,37,0.6);*/
 	width: 100%;
 }
 
@@ -99,17 +101,18 @@ img
 #class,#school
 {
 	font-family: 'Roboto', sans-serif;
-	color:black;
+	color:rgba(255,255,255,0.6);
 	display: none;
 }
 
 #social-buttons
 {
 	position: relative;
-	width:100%;
-	height:65px;
-	margin: auto;
-	top:200px;
+	/*margin: auto;*/
+	width: 60em;
+	height: 4em;
+	margin:6em auto 0px auto;
+	/*top:15em;*/
 }
 
 button
@@ -125,33 +128,41 @@ button
 }
 
 button.btn-facebook
-{
+{	
+	margin-left: 0px;
+    margin-right: 0px; 
+    float: left;
 	position: relative;
 	border-top-left-radius: 7px;
 	border-bottom-left-radius: 7px;
 	border-top-right-radius: 0px;
 	border-bottom-right-radius: 0px;
-	right:2px;
 }
 
 button.btn-linkedin
-{
+{	
+	margin-left: 0px;
+    margin-right: 0px; 
+    float: left;
 	position: relative;
 	border-radius: 0px;
-	right:6px;
 }
 
 button.btn-instagram
-{
-	border-radius: 0px;
+{	
+	margin-left: 0px;
+    margin-right: 0px; 
+    float: left;
 	position: relative;
-	right:10px;
+	border-radius: 0px;
 }
 
 button.btn-github
-{
+{	
+	margin-left: 0px;
+    margin-right: 0px; 
+    float: left;
 	position: relative;
-	right:14px;
 	border-top-right-radius: 7px;
 	border-top-left-radius: 0px;
 	border-bottom-right-radius: 7px;
@@ -226,8 +237,8 @@ span.glyphicon-book,span.glyphicon-briefcase,span.glyphicon-user,span.glyphicon-
 	z-index:7;
 	float:left;
 	font-size:1.5em;
-	margin-top: 1%;
-	margin-left: 1.5%;
+	margin: 1% 0px 0px 1.5%;
+	padding: 0px;
 }
 
 
