@@ -7,26 +7,26 @@ $(document).ready(function()
         {
           rules:
           {
-            fullname:
+            myname:
             {
               required:true
             },
-            email:
+            myemail:
             {
               required:true,
               email:true
             },
-            phone:
+            myphone:
             {
               required:true,
               digits:true
             }
             ,
-            message:
+            mymessage:
             {
               required:true,
               maxlength:2000
-            },
+            }
 
 
           }

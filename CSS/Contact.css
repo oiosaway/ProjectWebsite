@@ -45,7 +45,7 @@ label
 	border-radius: 20px;
 }
 
-input[name="fullname"] ,input[name="phone"],input[name="email"],textarea[name="message"]
+input[name="myname"] ,input[name="myphone"],input[name="myemail"],textarea[name="mymessage"]
 {
 	border: none;
 	background:rgba(76,76,76,0.8);

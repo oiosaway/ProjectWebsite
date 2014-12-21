@@ -86,6 +86,11 @@ div h4
 	border-left: 1px solid gray;
 }
 
+.col-md-3
+{
+	text-align: center;
+}
+
 .date
 {
 	color:gray;
@@ -123,8 +128,9 @@ img
 	/*border-radius: 100%;*/
 }
 
-#tilde
+#tilde,#logo
 {
 	width: 50%;
 	height: 50%;
+
 }

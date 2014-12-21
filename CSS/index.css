@@ -241,4 +241,17 @@ span.glyphicon-book,span.glyphicon-briefcase,span.glyphicon-user,span.glyphicon-
 	padding: 0px;
 }
 
+#return
+{
+	position: relative;
+	z-index: 5;
+	width: 100%;
+	text-align: center;
+	padding-top:25%; 
+}
+
+#return h1
+{
+	color:white;
+}
 
